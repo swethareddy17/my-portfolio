@@ -28,7 +28,7 @@ export default function Contact() {
               <span className="cl-ic">📧</span>
               <div>
                 <div className="cl-key">Email</div>
-                <div className="cl-val">nagaswetha123@gmail.com</div>
+                <div className="cl-val">kamananagaswetha@gmail.com</div>
               </div>
             </div>
 

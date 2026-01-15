@@ -1562,3 +1562,161 @@ body[data-theme="light"] .cl-fields textarea {
     grid-template-columns: 1fr;
   }
 }
+/* ======================
+   ABOUT SECTION (PREMIUM)
+====================== */
+
+.about {
+  padding-top: 60px;
+}
+
+.section-title {
+  font-size: 42px;
+  font-weight: 900;
+  margin-bottom: 18px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 35px;
+  align-items: start;
+}
+
+.about-intro {
+  font-size: 18px;
+  color: var(--muted);
+  margin-bottom: 12px;
+}
+
+.about-name {
+  background: linear-gradient(90deg, var(--primary), var(--accent), var(--secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+}
+
+.about-line {
+  font-size: 16px;
+  color: var(--muted);
+  margin-bottom: 22px;
+}
+
+.about-highlight {
+  color: var(--accent);
+  font-weight: 800;
+}
+
+.about-highlight2 {
+  color: var(--primary);
+  font-weight: 800;
+}
+
+.about-mini {
+  display: grid;
+  gap: 14px;
+}
+
+.mini {
+  background: var(--card);
+  border: 1px solid var(--border);
+  padding: 14px 16px;
+  border-radius: 16px;
+}
+
+.mini h4 {
+  margin: 0;
+  font-size: 14px;
+  color: var(--text);
+  font-weight: 900;
+}
+
+.mini p {
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+/* RIGHT SIDE CARDS */
+.about-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.about-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 16px;
+  transition: 0.25s;
+}
+
+.about-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 50px rgba(45, 212, 255, 0.12);
+}
+
+.about-card span {
+  font-size: 24px;
+}
+
+.about-card h3 {
+  margin: 8px 0 4px;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.about-card p {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* Skills tags */
+.about-skills,
+.about-strengths {
+  background: var(--card);
+  border: 1px solid var(--border);
+  padding: 16px;
+  border-radius: 18px;
+  margin-top: 14px;
+}
+
+.about-skills h3,
+.about-strengths h3 {
+  margin-bottom: 12px;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-tags span {
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.09);
+  border: 1px solid var(--border);
+  font-size: 13px;
+}
+
+.about-strengths ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  display: grid;
+  gap: 8px;
+}
+
+/* Responsive */
+@media (max-width: 980px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+}
